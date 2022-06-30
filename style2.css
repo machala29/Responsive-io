@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+.container {
+    border: 1px solid hsl(217, 12%, 63%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 88%;
+    height: 100;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 1.5rem;
+    padding: 2.6rem;
+}
+
+body{
+    font-family: 'overpass', sans-serif;
+    font-size: 15px;
+    width: 88%;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    border:  10px;
+}
+.star {
+    background-color: hsl(216, 12%, 8%);
+    width: fit-content;
+    border-radius: 100%;
+    padding: 8px;     
+    
+}
+.star img {
+    width: 1.4rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: hsl(0, 0%, 100%);
+    margin: 10px;
+}
+.text {
+    font-size: 1.415rem;
+    color: hsl(216, 12%, 54%);
+    line-height: 2.2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+    font-weight: 100;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.rate-btn {
+    background-color: hsl(216, 12%, 54%);
+    margin-top: 2.6rem;
+    color: hsl(217, 12%, 63%);
+    width: 4.1rem;
+    font-size: 1.3em;
+    height: 4.1rem;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rate-btn:hover {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.active {
+    color: hsl(217, 12%, 63%);
+    background-color: white;
+}
+
+
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: 1em;
+    width: 80%;
+    margin: 2.5rem;
+    padding: 1.3rem;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.submit:hover {
+    background-color: white;
+    color:  hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.next {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.result {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(217, 10%, 26%);
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    margin-top: 2.4rem;
+    padding: 0.8rem 1.4rem;
+    margin-bottom: 0.8rem;
+}
+.box2 img {
+    width: 11.5rem;
+    margin-top: 1rem;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+        } 
+.hide {
+    display: none;
+}
