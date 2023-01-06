@@ -18,7 +18,7 @@ html {
 .box {
     width: 88%;
     height: 100;
-    background-color: hsl(213, 19%, 18%);
+    background-color: hsl(214, 13%, 24%);
     border-radius: 1.5rem;
     padding: 2.6rem;
 }
@@ -40,7 +40,8 @@ body{
     
 }
 .star img {
-    width: 1.4rem;
+    width: 1.2em;
+    
 }
 
 h1 {
@@ -130,11 +131,52 @@ h1 {
     width: 11.5rem;
     margin-top: 1rem;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
-        } 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.selected {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+} 
 .hide {
     display: none;
+}
+@media screen and (min-width: 1000px) {
+  .box {
+    padding: 3rem;
+    border-radius: 3rem;
+  }
+  .star {
+    width: 5rem;
+    height: 5rem;
+  }
+  .star img {
+    width: 2.3em;
+  }
+  img {
+    width: 2.8rem;
+  }
+  .title {
+    margin-top: 3.4rem;
+    font-size: 2.8rem;
+  }
+  .text {
+    line-height: 2.4rem;
+    font-size: 1.5rem;
+  }
+    div {
+    transform: translateY(0);
+  }
+  .submit {
+    margin-top: 3.4rem;
+    padding: 2rem;
+    transform: translateX(10%);
+
+  }
+  .rate-btn {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  
 }
